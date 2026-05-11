@@ -1,3 +1,6 @@
+/* Mengimpor Montserrat (Untuk Logo) dan Poppins (Untuk Teks) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,900;1,300;1,900&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +8,7 @@
 }
 
 body {
-  background-color: #0c0c0c;
-  color: white;
-  font-family: 'Inter', -apple-system, sans-serif;
+  font-family: 'Poppins', sans-serif; /* Default font untuk seluruh teks */
   overflow-x: hidden;
+  background-color: #050505; /* Hitam pekat sesuai desain */
 }
